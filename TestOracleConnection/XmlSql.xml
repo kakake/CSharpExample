@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SQLS>
+  <sql name="test1">
+    select tspr.idcardno,tspr.realname from tsso_member tsom, tsp_realnameauthentication tspr where tsom.id = tspr.member_id and tsom.username = '{0}'
+  </sql>
+</SQLS>
